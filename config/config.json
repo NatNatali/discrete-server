@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "123456",
-    "database": "database_development",
+    "database": "discrete",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
@@ -16,7 +16,7 @@
   "production": {
     "username": "postgres",
     "password": "123456",
-    "database": "database_production",
+    "database": "discrete_prod",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }

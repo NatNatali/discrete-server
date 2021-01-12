@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const db = require('../models');
 const asyncWrap = require('../middleware/asyncWrap');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 router.post('/sign-up', asyncWrap(async (req, res) => {
   const { first_name, last_name, email, password } = req.body;
@@ -18,7 +18,10 @@ router.post('/sign-up', asyncWrap(async (req, res) => {
       password: hashedPass,
       first_name,
       last_name,
-    }).then(() => res.status(201)).catch((error) => {
+      type: 'user',
+    }).then(() => {
+      res.status(201).send({ success: true });
+    }).catch((error) => {
       res.status(400).send(error);
     });
   }

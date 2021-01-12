@@ -3,7 +3,7 @@ const router = express.Router();
 const db = require('../models');
 const asyncWrap = require('../middleware/asyncWrap');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 router.post('/sign-in', asyncWrap(async (req, res, next) => {
     const { email, password } = req.body;
@@ -20,7 +20,7 @@ router.post('/sign-in', asyncWrap(async (req, res, next) => {
         expiresIn: 86400, // expires in 24 hours
     });
 
-    res.status(200).send({ success: true, token });
+    res.status(200).send({ success: true, token, type: user.type });
 }));
 
 module.exports = router;
