@@ -18,7 +18,6 @@ router.get('/lesson', asyncWrap(async (req, res, next) => {
 
 router.post('/lesson', asyncWrap(async (req, res) => {
     const { lecture } = req.body;
-    console.log('req.body', lecture)
     if (!lecture) {
         res.status(400).send({
             status: false,

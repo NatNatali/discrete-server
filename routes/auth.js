@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs');
 
 router.post('/sign-in', asyncWrap(async (req, res, next) => {
     const { email, password } = req.body;
-    const user = await db.users.findOne({ email });
+    const user = await db.users.findOne({ where: { email } });
     if (!user)
         return res.status(404).json({ success: false, message: 'No user found' });
 
