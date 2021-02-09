@@ -20,9 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64b7a1b4-bf96-437e-8d48-6c8bc1367a0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/20210206125238-create-chapters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210206125350-create-section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/chapters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/chapters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/sections.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201129133719-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201129133719-create-users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/20210120145634-create-lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20210120145634-create-lessons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20210121133035-edit-column-lecture-lessons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/lessons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/lessons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../discrete-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -66,6 +76,10 @@
       <workItem from="1610267128677" duration="5297000" />
       <workItem from="1610371427663" duration="1074000" />
       <workItem from="1610430647426" duration="2384000" />
+      <workItem from="1612243307287" duration="2927000" />
+      <workItem from="1612350839478" duration="6339000" />
+      <workItem from="1612638560225" duration="7899000" />
+      <workItem from="1612788072281" duration="4046000" />
     </task>
     <servers />
   </component>

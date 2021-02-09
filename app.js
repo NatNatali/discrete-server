@@ -7,6 +7,8 @@ const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth')
 const usersRouter = require('./routes/users');
 const lessonRouter = require('./routes/lessons');
+const chapterRouter = require('./routes/chapters');
+const sectionRouter = require('./routes/sections')
 
 const app = express();
 
@@ -35,6 +37,8 @@ app.use(cors(Options));
 app.use('/', indexRouter);
 app.use('/auth', authRouter);
 app.use('/users', usersRouter);
-app.use('/lessons', lessonRouter)
+app.use('/lessons', lessonRouter);
+app.use('/chapters', chapterRouter);
+app.use('/sections', sectionRouter);
 
 module.exports = app;
