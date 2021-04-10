@@ -20,20 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64b7a1b4-bf96-437e-8d48-6c8bc1367a0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/20210206125238-create-chapters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20210206125350-create-section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/chapters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/sections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/chapters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210307135750-create-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210307140343-create-answers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210307154620-create-questions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/answers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seeders/20210314152450-admin-user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seeders/20210314154439-chapters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20201129133719-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201129133719-create-users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20210120145634-create-lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20210120145634-create-lessons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20210121133035-edit-column-lecture-lessons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/lessons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/lessons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/sections.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -79,7 +78,16 @@
       <workItem from="1612243307287" duration="2927000" />
       <workItem from="1612350839478" duration="6339000" />
       <workItem from="1612638560225" duration="7899000" />
-      <workItem from="1612788072281" duration="4046000" />
+      <workItem from="1612788072281" duration="4601000" />
+      <workItem from="1613471853860" duration="573000" />
+      <workItem from="1614419743317" duration="695000" />
+      <workItem from="1614663554008" duration="614000" />
+      <workItem from="1615121335580" duration="10521000" />
+      <workItem from="1615629413464" duration="2624000" />
+      <workItem from="1615725091740" duration="626000" />
+      <workItem from="1615735320018" duration="2187000" />
+      <workItem from="1615881967367" duration="1436000" />
+      <workItem from="1616588834437" duration="13605000" />
     </task>
     <servers />
   </component>
@@ -97,5 +105,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

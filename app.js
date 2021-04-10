@@ -8,7 +8,8 @@ const authRouter = require('./routes/auth')
 const usersRouter = require('./routes/users');
 const lessonRouter = require('./routes/lessons');
 const chapterRouter = require('./routes/chapters');
-const sectionRouter = require('./routes/sections')
+const sectionRouter = require('./routes/sections');
+const testRouter = require('./routes/test');
 
 const app = express();
 
@@ -40,5 +41,6 @@ app.use('/users', usersRouter);
 app.use('/lessons', lessonRouter);
 app.use('/chapters', chapterRouter);
 app.use('/sections', sectionRouter);
+app.use('/test', testRouter);
 
 module.exports = app;
