@@ -20,7 +20,8 @@ module.exports = asyncWrap(async (req, res, next) => {
             return res.status(404).send('No user found.');
         }
 
-        res.locals.user = user;
+        req.user = user;
+
         next();
     });
 });

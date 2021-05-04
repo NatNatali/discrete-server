@@ -20,7 +20,7 @@ router.post('/sign-in', asyncWrap(async (req, res, next) => {
         expiresIn: 86400, // expires in 24 hours
     });
 
-    res.status(200).send({ success: true, token, type: user.type });
+    res.status(200).send({ success: true, token, type: user.type, id: user.id });
 }));
 
 module.exports = router;

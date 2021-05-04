@@ -32,7 +32,7 @@ router.post('/create-chapter', asyncWrap(async (req, res) => {
                 title: chapter,
             })
 
-            res.status(201).send({success: true});
+            res.status(201).send({ success: true });
         } catch (e) {
             console.log(e);
             res.status(400).send(e);

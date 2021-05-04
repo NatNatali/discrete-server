@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64b7a1b4-bf96-437e-8d48-6c8bc1367a0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/20210307135750-create-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20210307140343-create-answers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20210307154620-create-questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/answers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeders/20210314152450-admin-user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeders/20210314154439-chapters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210411120051-create-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210413172833-create-comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/sections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/chapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/chapters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1615725091740" duration="626000" />
       <workItem from="1615735320018" duration="2187000" />
       <workItem from="1615881967367" duration="1436000" />
-      <workItem from="1616588834437" duration="13605000" />
+      <workItem from="1616588834437" duration="34829000" />
     </task>
     <servers />
   </component>
