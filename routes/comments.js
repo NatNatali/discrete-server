@@ -15,8 +15,8 @@ router.post('/create-comment', asyncWrap(async (req, res) => {
         try {
             result = await db.comments.create({
                 content: comment,
-                chapter_id: chapterId,
-                user_id: number,
+                chapterId,
+                userId: number,
             })
             res.status(201).send({ success: true });
         } catch (e) {
@@ -30,10 +30,20 @@ router.get('/get-comments', asyncWrap(async (req, res, next) => {
     const { chapterId } = req.query;
     const comments = await db.comments.findAll({
         where: {
-            chapter_id: chapterId,
+            chapterId,
         },
         attributes: [
             'content',
+        ],
+        include: [
+            {
+                model: db.users,
+                attributes: [
+                    'id',
+                    'first_name',
+                    'last_name',
+                ],
+            }
         ]
     });
     if (!comments)
